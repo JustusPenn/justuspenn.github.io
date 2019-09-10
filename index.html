@@ -25,25 +25,6 @@
     </div>
     <!-- /Preloader -->
 
-    <!-- Top Search Form Area -->
-    <div class="top-search-area">
-        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <!-- Close -->
-                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
-                        <!-- Form -->
-                        <form action="index.html" method="post">
-                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
-                            <button type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Header Area Start -->
     <header class="header-area">
         <!-- Main Header Start -->
@@ -54,7 +35,7 @@
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                        <a class="nav-brand" href="./index.html"><span class="text-white h3">JPenn</span><span class="h1 text-primary">.</span></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -71,32 +52,12 @@
                             <div class="classynav">
                                 <ul id="nav">
                                     <li class="active"><a href="./index.html">Home</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./index.html">- Home</a></li>
-                                            <li><a href="./about.html">- About</a></li>
-                                            <li><a href="./gallery.html">- Gallery</a></li>
-                                            <li><a href="./blog.html">- Blog</a></li>
-                                            <li><a href="./single-blog.html">- Blog Details</a></li>
-                                            <li><a href="./contact.html">- Contact</a></li>
-                                            <li><a href="#">- Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
                                     <li><a href="./about.html">About</a></li>
-                                    <li><a href="./gallery.html">Gallery</a></li>
-                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="./gallery.html">Porfolio</a></li>
+                                    <!-- <li><a href="./blog.html">Blog</a></li> -->
                                     <li><a href="./contact.html">Contact</a></li>
                                 </ul>
 
-                                <!-- Search Icon -->
-                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
                             </div>
                             <!-- Nav End -->
                         </div>
@@ -117,11 +78,11 @@
                         <!-- Welcome Text -->
                         <div class="col-12 col-lg-8 col-xl-6">
                             <div class="welcome-text">
-                                <h2 data-animation="bounceInDown" data-delay="900ms">Hello <br>I'm Jackson</h2>
-                                <p data-animation="bounceInDown" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
+                                <h2 data-animation="bounceInDown" data-delay="900ms">Hello <br>I'm Justus</h2>
+                                <p data-animation="bounceInDown" data-delay="500ms">I am a Software Engineer and Chief Software Architech at <a href="" class="hero-mail-contact">White Hat Nerds Inc.</a></p>
                                 <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                    <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a>
-                                    <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com">hello.alime@gmail.com</a>
+                                    <a href="mailto:justuspenn@gmail.com" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a>
+                                    <!-- <a class="hero-mail-contact" href="mailto:justuspenn@gmail.com">justuspenn@gmail.com</a> -->
                                 </div>
                             </div>
                         </div>
@@ -129,162 +90,34 @@
                 </div>
             </div>
 
-            <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <!-- Welcome Text -->
-                        <div class="col-12 col-lg-8 col-xl-6">
-                            <div class="welcome-text">
-                                <h2 data-animation="bounceInUp" data-delay="100ms">Hello <br>I'm Alime</h2>
-                                <p data-animation="bounceInUp" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
-                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
-                                    <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a>
-                                    <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com">hello.alime@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!-- Welcome Area End -->
 
     <!-- Gallery Area Start -->
-    <div class="alime-portfolio-area section-padding-80 clearfix">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Projects Menu -->
-                    <div class="alime-projects-menu">
-                        <div class="portfolio-menu text-center">
-                            <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".human">Human</button>
-                            <button class="btn" data-filter=".nature">Nature</button>
-                            <button class="btn" data-filter=".country">Country</button>
-                            <button class="btn" data-filter=".video">Video</button>
-                        </div>
-                    </div>
-                </div>
+    <div class="alime-portfolio-area section-padding-80 clearfix container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-5 about-left">
+                <img class="img-fluid" src="img/bg-img/14.jpg" alt="">
             </div>
-
-            <div class="row alime-portfolio">
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/3.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/3.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
+            <div class="col-lg-6 col-md-12 about-right">
+                <div class="main-title text-left">
+                    <h1 class="text-capitalize">about myself</h1>
                 </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/4.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/4.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
+                <div class="mb-50 wow fadeIn" data-wow-duration=".8s">
+                    <p>
+                        inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                        especially in the
+                        workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate
+                        behavior
+                        is often laughed. inappropriate behavior is often laughed off as “boys will be boys,” women face higher.
+                    </p>
+                    <p>That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is
+                        often
+                        laughed.
+                    </p>
                 </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp" data-wow-delay="500ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/5.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="700ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/6.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/6.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/7.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/7.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video country mb-30 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/8.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/8.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="500ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/10.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/10.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp" data-wow-delay="700ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/9.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/9.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-6 single_gallery_item video country mb-30 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/36.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/36.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/37.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/37.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Gallery Item -->
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp" data-wow-delay="500ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/5.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
-                    <a href="#" class="btn alime-btn btn-2 mt-15">View More</a>
-                </div>
+                <a href="#" class="btn alime-btn">Download CV</a>
             </div>
         </div>
     </div>
@@ -297,7 +130,7 @@
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <h2>Follow Instagram</h2>
-                        <p>@Alime_photographer</p>
+                        <p>@zebo.001</p>
                     </div>
                 </div>
             </div>
@@ -378,12 +211,13 @@
                         <!-- Copywrite Text -->
                         <div class="copywrite-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
                         </div>
                         <!-- Footer Logo -->
                         <div class="footer-logo">
-                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="index.html"><span class="text-dark h3">JPenn</span><span class="h1 text-primary">.</span></a>
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">

@@ -137,7 +137,7 @@ ul {
   width: 100%;
   top: 20px;
   width: 30px;
-  background: #fc6060;
+  background: royalblue;
   height: 30px;
   line-height: 30px; }
 
@@ -147,7 +147,7 @@ img.mfp-img {
 
 button.mfp-close,
 button.mfp-arrow {
-  background: #fc6060; }
+  background: royalblue; }
 
 .mfp-bottom-bar {
   display: none !important; }
@@ -326,7 +326,7 @@ input:required {
 
 .loader {
   margin-top: -20px;
-  color: #fc6060;
+  color: royalblue;
   font-size: 6px;
   position: relative;
   -webkit-transform: translateZ(0);
@@ -392,7 +392,7 @@ input:required {
   width: 40px;
   height: 40px;
   bottom: 40px;
-  background-color: #fc6060;
+  background-color: royalblue;
   color: #ffffff;
   text-align: center;
   -webkit-transition-duration: 500ms;
@@ -427,8 +427,8 @@ input:required {
   text-align: center;
   text-transform: capitalize;
   background-color: transparent;
-  color: #ffffff;
-  border: 2px solid #fc6060;
+  color: royalblue;
+  border: 2px solid royalblue;
   border-radius: 60px;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -439,7 +439,7 @@ input:required {
     font-weight: 500;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-    background-color: #fc6060;
+    background-color: royalblue;
     color: #ffffff; }
 
 .badges-btn {
@@ -456,7 +456,7 @@ input:required {
   transition-duration: 500ms;
   letter-spacing: 1px; }
   .badges-btn:hover, .badges-btn:focus {
-    background-color: #fc6060;
+    background-color: royalblue;
     color: #ffffff;
     font-weight: 500; }
 
@@ -517,7 +517,7 @@ input:required {
     z-index: 10;
     border-radius: 0 6px 6px 0;
     border: none;
-    background-color: #fc6060;
+    background-color: royalblue;
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
@@ -545,7 +545,7 @@ input:required {
       font-weight: 500;
       padding: 0 20px; }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-        color: #fc6060; }
+        color: royalblue; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px; } }
@@ -554,13 +554,13 @@ input:required {
           font-size: 14px;
           color: #252525; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-            color: #fc6060; } }
+            color: royalblue; } }
       @media only screen and (max-width: 767px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px;
           color: #252525; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-            color: #fc6060; } }
+            color: royalblue; } }
     .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a {
       font-size: 14px;
       text-transform: capitalize;
@@ -569,7 +569,7 @@ input:required {
       padding: 0 30px;
       color: #252525; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
-        color: #fc6060; }
+        color: royalblue; }
 
 .classynav ul li.active a {
   position: relative;
@@ -577,7 +577,7 @@ input:required {
   .classynav ul li.active a::before {
     width: calc(100% - 40px);
     height: 2px;
-    background-color: #fc6060;
+    background-color: royalblue;
     position: absolute;
     bottom: 7px;
     left: 0;
@@ -595,7 +595,7 @@ input:required {
 .classynav ul li.has-down > a::after,
 .classynav ul li.has-down.active > a::after,
 .classynav ul li.megamenu-item > a::after {
-  color: #fc6060; }
+  color: royalblue; }
 
 .breakpoint-off .classynav ul li .dropdown,
 .breakpoint-off .classynav ul li .megamenu {
@@ -655,7 +655,7 @@ input:required {
     .welcome-slides .owl-prev:hover, .welcome-slides .owl-prev:focus,
     .welcome-slides .owl-next:hover,
     .welcome-slides .owl-next:focus {
-      background-color: #fc6060; }
+      background-color: royalblue; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .welcome-slides .owl-prev,
       .welcome-slides .owl-next {
@@ -682,8 +682,8 @@ input:required {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 880px;
-  background-color: #fc6060; }
+  height: 550px;
+  background-color: royalblue; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
       height: 750px; } }
@@ -698,10 +698,10 @@ input:required {
     z-index: 1; }
     .single-welcome-slide .welcome-text h2 {
       font-weight: 700;
-      font-size: 82px;
+      font-size: 60px;
       display: block;
       margin-bottom: 0;
-      background: -webkit-linear-gradient(#ff9696, #ffe89e);
+      background: -webkit-linear-gradient(royalblue, #9ed3ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
       @media only screen and (max-width: 767px) {
@@ -716,7 +716,7 @@ input:required {
       font-style: italic;
       text-decoration: underline; }
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
-        color: #fc6060; }
+        color: royalblue; }
 
 /* :: 9.0 Footer CSS */
 .footer-content {
@@ -731,7 +731,7 @@ input:required {
         .footer-content .copywrite-text p {
           font-size: 12px; } }
       .footer-content .copywrite-text p a {
-        color: #fc6060;
+        color: royalblue;
         font-weight: 400; }
         @media only screen and (max-width: 767px) {
           .footer-content .copywrite-text p a {
@@ -750,7 +750,7 @@ input:required {
         margin-right: 5px;
         font-size: 12px; } }
     .footer-content .social-info a:hover, .footer-content .social-info a:focus {
-      color: #fc6060; }
+      color: royalblue; }
 
 /* :: 10.0 Follow CSS */
 .single-instagram-item {
@@ -822,7 +822,7 @@ input:required {
 .about-us-content .line {
   height: 3px;
   width: 70px;
-  background-color: #fc6060;
+  background-color: royalblue;
   margin-bottom: 30px; }
 
 .about-video-area {
@@ -846,7 +846,7 @@ input:required {
     height: 50px;
     width: 50px;
     display: inline-block;
-    background-color: #fc6060;
+    background-color: royalblue;
     text-align: center;
     line-height: 56px;
     font-size: 38px;
@@ -863,7 +863,7 @@ input:required {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      border: 2px solid #fc6060;
+      border: 2px solid royalblue;
       -webkit-animation: video-icon 1200ms linear infinite;
       animation: video-icon 1200ms linear infinite;
       z-index: -10; }
@@ -915,7 +915,7 @@ input:required {
     transition-duration: 800ms;
     height: 76px;
     width: 76px;
-    background-color: #fc6060;
+    background-color: royalblue;
     display: inline-block;
     text-align: center;
     line-height: 76px;
@@ -940,7 +940,7 @@ input:required {
     font-size: 14px;
     margin-bottom: 0; }
   .why-choose-us-content:hover, .why-choose-us-content:focus {
-    background-color: #fc6060; }
+    background-color: royalblue; }
     .why-choose-us-content:hover .chosse-us-icon, .why-choose-us-content:focus .chosse-us-icon {
       background-color: #000000;
       box-shadow: 0 5px 15px 2px rgba(255, 255, 255, 0.15); }
@@ -973,7 +973,7 @@ input:required {
     background-color: transparent;
     margin-bottom: 0; }
     .breadcrumb-content .breadcrumb .breadcrumb-item {
-      color: #fc6060;
+      color: royalblue;
       font-weight: 400;
       font-size: 16px; }
       .breadcrumb-content .breadcrumb .breadcrumb-item a {
@@ -981,7 +981,7 @@ input:required {
         color: #ffffff;
         font-weight: 400; }
         .breadcrumb-content .breadcrumb .breadcrumb-item a:hover, .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
-          color: #fc6060; }
+          color: royalblue; }
     .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
       content: '\f105';
       color: #ffffff;
@@ -995,7 +995,7 @@ input:required {
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #fc6060;
+    background-color: royalblue;
     font-weight: 500;
     margin-bottom: 15px; }
     .breadcrumb-area.blog .breadcrumb-content .post-catagory:hover, .breadcrumb-area.blog .breadcrumb-content .post-catagory:focus {
@@ -1031,7 +1031,7 @@ input:required {
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:last-child::after {
         display: none; }
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus {
-        color: #fc6060; }
+        color: royalblue; }
         .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus::after {
           color: #ffffff; }
 
@@ -1054,7 +1054,7 @@ input:required {
   z-index: 1;
   margin-bottom: 30px;
   margin-top: 30px;
-  border-left: 3px solid #fc6060;
+  border-left: 3px solid royalblue;
   padding-left: 30px; }
   .alime-blockquote h4 {
     margin-bottom: 15px;
@@ -1067,7 +1067,7 @@ input:required {
         font-size: 18px; } }
   .alime-blockquote h6 {
     font-size: 18px;
-    color: #fc6060;
+    color: royalblue;
     text-transform: uppercase;
     margin-bottom: 0; }
     @media only screen and (max-width: 767px) {
@@ -1112,7 +1112,7 @@ input:required {
     .post-author-area .post-social-info a:last-child {
       margin-right: 0; }
     .post-author-area .post-social-info a:hover, .post-author-area .post-social-info a:focus {
-      color: #fc6060; }
+      color: royalblue; }
 
 .alime-pager-area {
   position: relative;
@@ -1163,7 +1163,7 @@ input:required {
         .alime-pager-area .previous .overlay-content .post-title:hover, .alime-pager-area .previous .overlay-content .post-title:focus,
         .alime-pager-area .next .overlay-content .post-title:hover,
         .alime-pager-area .next .overlay-content .post-title:focus {
-          color: #fc6060; }
+          color: royalblue; }
       .alime-pager-area .previous .overlay-content .previous-link,
       .alime-pager-area .previous .overlay-content .next-link,
       .alime-pager-area .next .overlay-content .previous-link,
@@ -1189,7 +1189,7 @@ input:required {
         .alime-pager-area .next .overlay-content .previous-link:focus,
         .alime-pager-area .next .overlay-content .next-link:hover,
         .alime-pager-area .next .overlay-content .next-link:focus {
-          color: #fc6060; }
+          color: royalblue; }
     .alime-pager-area .previous:hover::after, .alime-pager-area .previous:focus::after,
     .alime-pager-area .next:hover::after,
     .alime-pager-area .next:focus::after {
@@ -1225,9 +1225,9 @@ input:required {
     margin-right: 5px;
     border-radius: 3px; }
     .pagination .page-link:hover, .pagination .page-link:focus {
-      background-color: #fc6060;
+      background-color: royalblue;
       color: #ffffff;
-      border-color: #fc6060; }
+      border-color: royalblue; }
     .pagination .page-link:focus {
       box-shadow: none; }
 
@@ -1284,7 +1284,7 @@ input:required {
       color: #b2b2b2;
       letter-spacing: 1px; }
       .comment_area .comment-content .comment-meta .post-date:hover, .comment_area .comment-content .comment-meta .post-date:focus {
-        color: #fc6060; }
+        color: royalblue; }
     .comment_area .comment-content .comment-meta h5 {
       margin-bottom: 5px;
       font-size: 18px; }
@@ -1309,8 +1309,8 @@ input:required {
       .comment_area .comment-content .comment-meta .like:focus, .comment_area .comment-content .comment-meta .like:hover,
       .comment_area .comment-content .comment-meta .reply:focus,
       .comment_area .comment-content .comment-meta .reply:hover {
-        border-color: #fc6060;
-        background-color: #fc6060;
+        border-color: royalblue;
+        background-color: royalblue;
         color: #ffffff; }
   .comment_area .children {
     margin-left: 120px; }
@@ -1366,7 +1366,7 @@ input:required {
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #fc6060;
+    background-color: royalblue;
     top: 15px;
     right: 15px;
     z-index: 20;
@@ -1398,7 +1398,7 @@ input:required {
           left: -11px;
           z-index: 1; }
         .single-post-area .post-content .post-meta a:hover, .single-post-area .post-content .post-meta a:focus {
-          color: #fc6060; }
+          color: royalblue; }
           .single-post-area .post-content .post-meta a:hover::after, .single-post-area .post-content .post-meta a:focus::after {
             color: #ffffff; }
     .single-post-area .post-content .post-title {
@@ -1409,7 +1409,7 @@ input:required {
         .single-post-area .post-content .post-title {
           font-size: 16px; } }
       .single-post-area .post-content .post-title:hover, .single-post-area .post-content .post-title:focus {
-        color: #fc6060; }
+        color: royalblue; }
   .single-post-area:hover .post-thumbnail img, .single-post-area:focus .post-thumbnail img {
     -webkit-transform: scale(1.4) rotate(10deg);
     -ms-transform: scale(1.4) rotate(10deg);
@@ -1458,7 +1458,7 @@ input:required {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    color: #fc6060;
+    color: royalblue;
     font-size: 12px;
     text-transform: uppercase; }
   .team-content-area .member-social-info {
@@ -1473,9 +1473,9 @@ input:required {
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
       .team-content-area .member-social-info a:hover, .team-content-area .member-social-info a:focus {
-        color: #fc6060; }
+        color: royalblue; }
   .team-content-area:hover, .team-content-area:focus {
-    background-color: #fc6060; }
+    background-color: royalblue; }
     .team-content-area:hover .member-thumb img, .team-content-area:focus .member-thumb img {
       -webkit-transform: rotate(25deg);
       -ms-transform: rotate(25deg);
@@ -1537,7 +1537,7 @@ input:required {
       position: absolute;
       width: 0%;
       height: 3px;
-      background-color: #fc6060;
+      background-color: royalblue;
       content: '';
       bottom: -5px;
       left: 0;
@@ -1583,7 +1583,7 @@ input:required {
       width: 52px;
       height: 52px;
       border-radius: 50%;
-      background-color: #fc6060;
+      background-color: royalblue;
       text-align: center;
       line-height: 52px;
       font-size: 30px;
@@ -1614,7 +1614,7 @@ input:required {
   border: 1px solid #ebebeb; }
   .alime-contact-form .form-control:focus {
     box-shadow: none;
-    border-color: #fc6060; }
+    border-color: royalblue; }
 .alime-contact-form textarea.form-control {
   height: 120px;
   padding: 20px; }
