@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Merriweather, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+}
+
+header {
+    a {
+        img.logo {
+            height: 50px;
+            width: auto;
+        }
+    }
+
+    .nav .nav-link{
+        color: #6c757d;
+    }
+
+}
+
+footer{
+    border-top: solid 1px #303030;
+
+    a{
+        text-decoration: none;
+        color: #303030;
+    }
+}
+
+.follow{
+    border-top: solid 1px #303030;
+
+}
+
+.social-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    .icon{
+        display: inline;
+        margin-left: 10px;
+        font-size: 1.2rem;
+
+        &.facebook:hover {
+            color: #4267B2;
+        }
+        &.linkedin:hover {
+            color: #34B7F1;
+        }
+        &.github:hover {
+            color: #303030;
+        }
+        &.whatsapp:hover {
+            color: #128C7E;
+        }
+        &.instagram:hover {
+            color: #E1306C;
+        }
+    }
+}
+.section {
+    padding: 5rem 0;
+}
+
+.section-bottom {
+    padding-bottom: 5rem;
+}
+
+.section-top {
+    padding-top: 5rem;
+}
+
+.bio {
+    
+    .jpenn-img{
+        height: 500px;
+        width: auto;
+        border-radius: 90px;
+        padding: 20px;
+        border: solid #c7c7c7 1px;
+    }
+
+    .about {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+        .h6 {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .number{
+            font-size: 4rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.skills {
+    border-top: solid 1px #303030;
+
+    .skill {
+        text-align: center;
+        margin-bottom: 1rem;
+
+        .inner{
+            background-color: #e7e7e7;
+            border-radius: 50px;
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            margin-bottom: 0.5rem;
+            img {
+                height: 50px;
+                width: auto;
+            }
+
+            .rate {
+                display: block;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+            h6{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.education {
+    border-top: solid 1px #303030;
+
+    .exp{
+        margin-bottom: 1.5rem;
+
+        h6{
+            margin-bottom: 0;
+        }
+
+        span{
+            font-size: .7rem;
+            color: #888888;
+        }
+    }
+}
+
+.work{
+    border-top: solid 1px #303030;
+    .project{
+        span {
+            text-transform: capitalize;
+            font-size: 0.7rem;
+            color: #888888;
+        }
+    }
+}
